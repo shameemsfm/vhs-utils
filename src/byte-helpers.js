@@ -71,7 +71,7 @@ export const toBinaryString = function(bytes) {
 
   return str;
 };
-const BigInt = window.BigInt || Number;
+const BigInt = window?.BigInt || Number;
 
 const BYTE_TABLE = [
   BigInt('0x1'),
